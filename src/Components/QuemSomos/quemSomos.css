@@ -1,0 +1,54 @@
+.mini-texto{
+    text-align: center;
+    width: 80%;
+  
+}
+.texto-val{
+    text-align: center;
+    width: 90%;
+   
+    
+}
+
+.dad-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-esquerda{
+    width: 50%;
+   
+}
+
+.div-direita{
+    width: 40%;
+   
+}
+
+.icon-qsomos {
+    background-color: white;
+    color: #ED7E07;
+    width: 85%;
+    height: 80px;
+}
+
+.icon-balance {
+    background-color: white;
+    color: #ED7E07;
+    width: 100%;
+    height: 80px;
+}
+
+.h2-empresa {
+    text-align: center;
+    width: 80%;
+   
+}
+
+.h2-valores{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
