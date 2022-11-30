@@ -1,4 +1,5 @@
 .row {
+<<<<<<< HEAD
   margin-bottom: 0px;
   margin-top: 10px;
 }
@@ -38,23 +39,61 @@
 .preco {
       font-size: 13px;
     }
+=======
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 2px 6px 10px 0px #ED7E07 !important;
+  transition: all 0.7s linear;
+}
+
+.card-body {
+  padding: 10px !important;
+  background-color: rgb(255, 255, 255);
+  /* margin-bottom: 10px!important; */
+  
+}
+
+.card-title{
+    font-size: 20px;
+  }
+.preco {
+      font-size: 13px;
+    }
+
+>>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 .overflow {
   overflow: hidden;
   flex: 1
   
   
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 .card-img-top {
   transform: scale(1);
   transition: all 0.2s ease-in-out;
   
 }
+<<<<<<< HEAD
 .card-img-top:hover {
   transform: scale(1.8);
 }
 .col-md-4{
     margin-bottom: 20px;
     margin-top: 1000px;
+=======
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+
+.col-md-4{
+    margin-bottom: 20px;
+>>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 }
 .prom {
   font-size: 40px;
@@ -64,17 +103,31 @@
   color: #ED7E07;
   /* background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,131,0,1) 100%, rgba(0,212,255,1) 100%); */
+<<<<<<< HEAD
 }
 .card-description{
   color: #000000;
 }
 .preco{
   color: #ED7E07;
+=======
+
+}
+.card-description{
+  color: #000000;
+  
+
+}
+.preco{
+  color: #ED7E07;
+  
+>>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 }
 .card-title{
   font-size: 30px;
   color: #ED7E07;
 }
+<<<<<<< HEAD
   .resposta {
     width: 40px;
     border: none;
@@ -114,4 +167,79 @@
   a.butttona {
       color: #ED7E07;
     }
+=======
+.price{
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.1375rem;
+ 
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.95rem;
+}
+.inputMenosMais{
+  height: 2.375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.carrinhoo{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  background-color: 'purple-900';
+  transition: all 0.2s;
+    background-color: 'purple-500';
+    color: 'white-300'
+}
+.svg {
+  color: 'white-300';
+}
+.CardContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.25rem;
+  border-radius: 0.375rem 2.25rem;
+
+  background-color: 'white-300'
+};
+
+ img {
+    width: 7.75rem;
+    height: 7.75rem;
+
+    margin-top: -40px;
+  }
+
+  h2 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+  }
+
+  p {
+    margin: 0.5rem 0 2.0625rem 0;
+
+    font-size: 0.875rem;
+    line-height: 1.1375rem;
+    text-align: center;
+
+    color: 'gray-300';
+}
+>>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
   

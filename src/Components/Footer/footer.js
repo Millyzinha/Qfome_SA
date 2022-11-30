@@ -15,25 +15,25 @@ const Footer = () => {
 
                 </div>
                 <div className="col-container">
-                    <div className="col">
-                        <h3>Informações</h3>
-                        <p>Formas de Pagamento</p>
-                        <p>Comunicados</p>
-                        <p>Quem Somos</p>
+                      <div className="col">
+                        <h3>Qfome</h3>
+                        <p className='paginaquemSomos' onClick={() => window.location.href = `./QuemSomos`}>Quem Somos</p>
                     </div>
                     <div className="col">
-                        <h3>Qfome</h3>
+                        <h3>Novidades</h3>
+                        {/* <p>Bolos</p>
                         <p>Doces</p>
                         <p>Salgados</p>
-                        <p>Jantar</p>
-                        <p>Eventos</p>
-                        <p>Almoço</p>
+                        <p>Especias</p> */}
+                        <p className='paginaEventos' onClick={() => window.location.href = `./Eventos`}>Eventos</p>
+                        <p className='paginaRefeicoes' onClick={() => window.location.href = `./refeicoes`}>Refeições</p>
+                       
                     </div>
+                  
                     <div className="col">
                         <h3>Equipe</h3>
                         <p>Daiana</p>
                         <p>Kamilly</p>
-                        <p>Luis</p>
                         <p>Marcyelen</p>
                     </div>
                     <form>
