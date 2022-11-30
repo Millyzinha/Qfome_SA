@@ -27,15 +27,11 @@ const Especias = () => {
             id: '1',
             image: imagem1,
             type: ['tradicional'],
-<<<<<<< HEAD
+
             name: 'BOLO DE LIMÃO',
             description: 'O tradicional café feito com água quente e grãos moídos',
             price: "R$ 7.59",
-=======
-            name: 'PIZZA DE TOMATE',
-            description: 'MOLHO DE TOMATE, QUEIJO MUSSARELA, TOMATE E RECÚLA FRESCA.',
-            Price: "R$ 7.59",
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
         },
         {
             id: '2',

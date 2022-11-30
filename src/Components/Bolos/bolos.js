@@ -20,9 +20,9 @@ import imagem10 from "../Bolos/imagens/teste3.jpg"
 import imagem11 from "../Bolos/imagens/bombomorango.jpeg" 
 import imagem12 from "../Bolos/imagens/moranginbolo.jpg" 
 
-import imagem20 from "../Bolos/imagens/bolocon.jpg" 
-import imagem21 from "../Bolos/imagens/unicornio.jpg" 
-import imagem22 from "../Bolos/imagens/casamento.jpg"
+// import imagem20 from "../Bolos/imagens/bolocon.jpg" 
+// import imagem21 from "../Bolos/imagens/unicornio.jpg" 
+// import imagem22 from "../Bolos/imagens/casamento.jpg"
 const Bolo =() => {
     const cards_bolo = [
         
@@ -30,96 +30,72 @@ const Bolo =() => {
             id: '1',
             image: imagem1,
             type: ['tradicional'],
-<<<<<<< HEAD
+
             name: 'BOLO FERRERO ROCHER',
             description: 'Bolo decorado com biscoito Óreo e chocolate Ferrero Rocher ótimo para sobremesa.',
             price: "R$ 7.59",
-=======
-            name: 'BOLO DE LIMÃO',
-            description: 'MASSA TRADICIONAL DE LIMÃO, COM COBERTURA DE MOUSSE DE LIMÃO.',
-            Price: "R$ 7.59",
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
         },
         {
             id: '2',
             image: imagem2,
             type: ['tradicional'],
-<<<<<<< HEAD
+
             name: 'BOLO OURO BRANCO',
             description: 'Bolo de ouro branco, detalhado com calda de chocolate e suspiros.',
-=======
-            name: 'BOLO DE MILHO',
-            description: 'MASSA TRADICIONAL DE MILHO.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 7.59,
         },
         {
             id: '3',
             image: imagem3,
             type: ['tradicional'],
-<<<<<<< HEAD
+
             name: 'BOLO VANILLA',
             description: 'Bolo de vanilla recheado com baunilha, decorado com cereja e chocolate',
-=======
-            name: 'BOLO DE OREO',
-            description: 'RECHEIO DE BRIGADEIRO DE OREO, COM COBERTURA DE CHOCOLATE E CHANTININHO.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 8.8,
         },
         {
             id: '4',
             image: imagem4,
             type: ['tradicional', 'gelado'],
-<<<<<<< HEAD
+
             name: 'BOLO DE CHOCOLATE',
             description: 'Bolo de chocolate simples para acompanhar seu café da tarde com a família',
-=======
-            name: 'BOLO DE CENOURA',
-            description: 'MASSA DE CENOURA, COM COBERTURA DE BRIGADEIRO TRADICIONAL.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 9.9,
         },
         {
             id: '5',
             image: imagem5,
             type: ['tradicional', 'com leite'],
-<<<<<<< HEAD
+
             name: 'VULCÃO DE BRIGADEIRO',
             description: 'Bolo de chocolate vulcânico de brigadeiro com granulado, para sobremesas',
-=======
-            name: 'BOLO FORMIGUEIRO',
-            description: 'MASSA DE CHOCOLATE E PÃO DE LÓ, COM COBERTURA DE CHOCOLATES.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
         {
             id: '6',
             image: imagem6,
             type: ['tradicional', 'com leite'],
-<<<<<<< HEAD
+
             name: 'CHOCOLATE AMARGO',
             description:
                 'Bolo de chocolate amargo vulcânico com granulado, 80% de cacau',
-=======
-            name: 'NAKED CAKE 1',
-            description:
-                'RECHEIO DE SENSAÇÃO, NINHO, E NATA.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
         {
             id: '7',
             image: imagem7,
             type: ['tradicional', 'com leite'],
-<<<<<<< HEAD
+
             name: 'SUSPIRO COM MORANGO',
             description:
                 'Bolo de chocolate recheado com creme de morango, decorado com suspiros de morango e morangos',
-=======
-            name: 'NAKED CAKE 2',
-            description:
-                'RECHEIO DE BRIGADEIRO DE NINHO COM MORANGO.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
         {
@@ -128,63 +104,49 @@ const Bolo =() => {
             type: ['tradicional', 'com leite'],
             name: 'BOLO COM DECORAÇÃO',
             description:
-<<<<<<< HEAD
+
                 'Bolo decorado com detalhes de pétalas de rosas, coberto de chantilly, recomendado para festas',
-=======
-                'BOLO COM DECORAÇÃO SILMPRES, E RECHEIO DE QUATRO LEITES.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
         {
             id: '9',
             image: imagem9,
             type: ['tradicional', 'com leite'],
-<<<<<<< HEAD
+
             name: 'BOLO DE MORANGO',
             description: 'Bolo de morango com calda de chocolate, decorado com morangos, perfeito para sobremesas',
-=======
-            name: 'BOLO DE CHURROS',
-            description: 'RECHEIO DE DOCE DE LEITE, E BRIGADEIRO DE CHURROS.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
         {
-            id: '20',
-            image: imagem20,
+            id: '10',
+            image: imagem10,
             type: ['especial', 'com leite'],
-<<<<<<< HEAD
+
             name: 'BOLO RECHEADO',
             description: 'Bolo de chocolate com morango, decorado com raspas de chocolate e recheado com creme e morango',
-=======
-            name: 'BOLO DE CHANTINHO',
-            description: 'RECHEIO DE BRIGADEIRO DE CHOCOLATE, COM MOUSSE DE MORANGO E LEITE NINHO.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
         {
-            id: '21',
-            image: imagem21,
+            id: '11',
+            image: imagem11,
             type: ['especial', 'com leite'],
-<<<<<<< HEAD
+
             name: 'BOLO DE PAÇOCA',
             description: 'Bolo de paçoca recheado com creme de paçoca, deocorado com morango e calda de chocolate',
-=======
-            name: 'BOLO COM DECORAÇÃO',
-            description: 'DECORADO COM PASTA AMERICA, COM RECHEIO DE NUTTELA E BRIGADEIRO DE LEITE NINHO.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
         {
-            id: '22',
-            image: imagem22,
+            id: '12',
+            image: imagem12,
             type: ['especial', 'com leite'],
-<<<<<<< HEAD
+
             name: 'BOLO DE CHANTILLY',
             description: 'Bolo de morango coberto de chantilly, decorado com calda de chocolate e morangos',
-=======
-            name: 'BOLO DE CASAMENTO',
-            description: 'RECHEIO DE QUATRO LEITES E BRIGADEIRO.',
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
             price: 12.29,
         },
 
@@ -209,6 +171,6 @@ const Bolo =() => {
             <Footer />
         </div>
     )
-}
-    
+                }
+                 
 export default Bolo

@@ -20,14 +20,14 @@ import imagem9 from "./imagensEventos/churrasco.jpg"
 const Eventos = () => {
     const cards_doce = [
         {
-<<<<<<< HEAD
+
             id: '1',
             image: imagem1,
             type: ['tradicional'],
             name: 'MOUSSE DE MARACUJÁ',
             description: 'O tradicional café feito com água quente e grãos moídos',
             price: "R$ 7.59",
-=======
+
             id: '8',
             image: imagem8,
             type: ['tradicional', 'com leite'],
@@ -43,7 +43,7 @@ const Eventos = () => {
             name: 'TORTA DE MORANGO',
             description: 'Café expresso com calda de chocolate, pouco leite e espuma',
             price: 12.29,
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
         },
         {
             id: '2',

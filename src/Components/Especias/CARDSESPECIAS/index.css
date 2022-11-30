@@ -1,5 +1,4 @@
 .row {
-<<<<<<< HEAD
   margin-bottom: 0px;
   margin-top: 10px;
 }
@@ -39,61 +38,27 @@
 .preco {
       font-size: 13px;
     }
-=======
-  margin-bottom: 10px;
-}
 
-.card:hover {
-  box-shadow: 2px 6px 10px 0px #ED7E07 !important;
-  transition: all 0.7s linear;
-}
-
-.card-body {
-  padding: 10px !important;
-  background-color: rgb(255, 255, 255);
-  /* margin-bottom: 10px!important; */
-  
-}
-
-.card-title{
-    font-size: 20px;
-  }
-.preco {
-      font-size: 13px;
-    }
-
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 .overflow {
   overflow: hidden;
   flex: 1
   
   
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 .card-img-top {
   transform: scale(1);
   transition: all 0.2s ease-in-out;
   
 }
-<<<<<<< HEAD
+
 .card-img-top:hover {
   transform: scale(1.8);
 }
 .col-md-4{
     margin-bottom: 20px;
     margin-top: 1000px;
-=======
 
-.card-img-top:hover {
-  transform: scale(1.8);
-}
-
-.col-md-4{
-    margin-bottom: 20px;
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 }
 .prom {
   font-size: 40px;
@@ -103,32 +68,20 @@
   color: #ED7E07;
   /* background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,131,0,1) 100%, rgba(0,212,255,1) 100%); */
-<<<<<<< HEAD
+
 }
 .card-description{
   color: #000000;
 }
 .preco{
   color: #ED7E07;
-=======
 
-}
-.card-description{
-  color: #000000;
-  
-
-}
-.preco{
-  color: #ED7E07;
-  
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
 }
 .card-title{
   font-size: 30px;
   color: #ED7E07;
 }
-<<<<<<< HEAD
-  .resposta {
+ .resposta {
     width: 40px;
     border: none;
   }
@@ -167,7 +120,7 @@
   a.butttona {
       color: #ED7E07;
     }
-=======
+
 .price{
   display: flex;
   align-items: center;
@@ -241,5 +194,5 @@
 
     color: 'gray-300';
 }
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
+
   

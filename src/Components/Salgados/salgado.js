@@ -23,33 +23,6 @@ import imagem9 from "./imagensSalgados/empada.jpg"
 const Salgado =() => {
     const cards_salgado = [
         {
-<<<<<<< HEAD
-            id: '1',
-            image: imagem1,
-            type: ['tradicional'],
-            name: 'BOLO DE LIMÃO',
-            description: 'O tradicional café feito com água quente e grãos moídos',
-            price: "R$ 7.59",
-        },
-        {
-            id: '2',
-            image: imagem2,
-            type: ['tradicional'],
-            name: 'BOLO DE MILHO',
-            description: 'Expresso diluído, menos intenso que o tradicional',
-            price: 7.59,
-        },
-        {
-            id: '3',
-            image: imagem3,
-            type: ['tradicional'],
-            name: 'BOLO DE FLOCOS',
-            description: 'Café expresso tradicional com espuma cremosa',
-            price: 8.8,
-        },
-        {
-=======
->>>>>>> d4ebca058ea1be73ca32d4952a9493ef0fd39bce
             id: '4',
             image: imagem5,
             type: ['tradicional', 'gelado'],
