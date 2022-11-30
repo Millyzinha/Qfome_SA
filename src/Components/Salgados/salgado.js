@@ -28,7 +28,7 @@ const Salgado =() => {
             type: ['tradicional'],
             name: 'BOLO DE LIMÃO',
             description: 'O tradicional café feito com água quente e grãos moídos',
-            Price: "R$ 7.59",
+            price: "R$ 7.59",
         },
         {
             id: '2',
