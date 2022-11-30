@@ -19,6 +19,9 @@ import imagem10 from "../Bolos/imagens/chocolotae.jpg"
 import imagem11 from "../Bolos/imagens/calda.jpg" 
 import imagem12 from "../Bolos/imagens/calda.jpg" 
 
+import imagem20 from "../Bolos/imagens/bolocon.jpg" 
+import imagem21 from "../Bolos/imagens/unicornio.jpg" 
+import imagem22 from "../Bolos/imagens/casamento.jpg"
 const Bolo =() => {
     const cards_bolo = [
         
@@ -27,7 +30,7 @@ const Bolo =() => {
             image: imagem1,
             type: ['tradicional'],
             name: 'BOLO DE LIMÃO',
-            description: 'O tradicional café feito com água quente e grãos moídos',
+            description: 'MASSA TRADICIONAL DE LIMÃO, COM COBERTURA DE MOUSSE DE LIMÃO.',
             Price: "R$ 7.59",
         },
         {
@@ -35,15 +38,15 @@ const Bolo =() => {
             image: imagem2,
             type: ['tradicional'],
             name: 'BOLO DE MILHO',
-            description: 'Expresso diluído, menos intenso que o tradicional',
+            description: 'MASSA TRADICIONAL DE MILHO.',
             price: 7.59,
         },
         {
             id: '3',
             image: imagem3,
             type: ['tradicional'],
-            name: 'BOLO DE FLOCOS',
-            description: 'Café expresso tradicional com espuma cremosa',
+            name: 'BOLO DE OREO',
+            description: 'RECHEIO DE BRIGADEIRO DE OREO, COM COBERTURA DE CHOCOLATE E CHANTININHO.',
             price: 8.8,
         },
         {
@@ -51,42 +54,42 @@ const Bolo =() => {
             image: imagem4,
             type: ['tradicional', 'gelado'],
             name: 'BOLO DE CENOURA',
-            description: 'Bebida preparada com café expresso e cubos de gelo',
+            description: 'MASSA DE CENOURA, COM COBERTURA DE BRIGADEIRO TRADICIONAL.',
             price: 9.9,
         },
         {
             id: '5',
             image: imagem5,
             type: ['tradicional', 'com leite'],
-            name: 'BOLO DE CHOCOLATE',
-            description: 'Meio a meio de expresso tradicional com leite vaporizado',
+            name: 'BOLO FORMIGUEIRO',
+            description: 'MASSA DE CHOCOLATE E PÃO DE LÓ, COM COBERTURA DE CHOCOLATES.',
             price: 12.29,
         },
         {
             id: '6',
             image: imagem6,
             type: ['tradicional', 'com leite'],
-            name: 'NAKED CAKE DE MORANGO',
+            name: 'NAKED CAKE 1',
             description:
-                'SENSAÇÃO, NINHO, CHURROS E BEIJINHO',
+                'RECHEIO DE SENSAÇÃO, NINHO, E NATA.',
             price: 12.29,
         },
         {
             id: '7',
             image: imagem7,
             type: ['tradicional', 'com leite'],
-            name: 'BOLO DE MORANGO COM CHOCOLATE',
+            name: 'NAKED CAKE 2',
             description:
-                'Bebida com canela feita de doses iguais de café, leite e espuma',
+                'RECHEIO DE BRIGADEIRO DE NINHO COM MORANGO.',
             price: 12.29,
         },
         {
             id: '8',
             image: imagem8,
             type: ['tradicional', 'com leite'],
-            name: 'BOLO DECORADO',
+            name: 'BOLO COM DECORAÇÃO',
             description:
-                'SORVETE NATURAL DE MORANGO',
+                'BOLO COM DECORAÇÃO SILMPRES, E RECHEIO DE QUATRO LEITES.',
             price: 12.29,
         },
         {
@@ -94,31 +97,31 @@ const Bolo =() => {
             image: imagem9,
             type: ['tradicional', 'com leite'],
             name: 'BOLO DE CHURROS',
-            description: 'Café expresso com calda de chocolate, pouco leite e espuma',
+            description: 'RECHEIO DE DOCE DE LEITE, E BRIGADEIRO DE CHURROS.',
             price: 12.29,
         },
         {
-            id: '10',
-            image: imagem10,
+            id: '20',
+            image: imagem20,
             type: ['especial', 'com leite'],
-            name: 'BOLO DE CHOCOLATE TRADICIONAL',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'BOLO DE CHANTINHO',
+            description: 'RECHEIO DE BRIGADEIRO DE CHOCOLATE, COM MOUSSE DE MORANGO E LEITE NINHO.',
             price: 12.29,
         },
         {
-            id: '11',
-            image: imagem11,
+            id: '21',
+            image: imagem21,
             type: ['especial', 'com leite'],
-            name: 'ARROZ DOCE',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'BOLO COM DECORAÇÃO',
+            description: 'DECORADO COM PASTA AMERICA, COM RECHEIO DE NUTTELA E BRIGADEIRO DE LEITE NINHO.',
             price: 12.29,
         },
         {
-            id: '12',
-            image: imagem12,
+            id: '22',
+            image: imagem22,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'BOLO DE CASAMENTO',
+            description: 'RECHEIO DE QUATRO LEITES E BRIGADEIRO.',
             price: 12.29,
         },
 

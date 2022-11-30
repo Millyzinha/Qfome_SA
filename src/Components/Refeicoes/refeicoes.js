@@ -14,15 +14,17 @@ import imagem16 from "../Refeicoes/imagensRefe/saladadetomate.jpg"
 import imagem8 from "../Refeicoes/imagensRefe/massamolhovermelho.jpg"
 import imagem9 from "../Refeicoes/imagensRefe/massamolhobranco.jpg"
 import imagem10 from "../Refeicoes/imagensRefe/massacomcarne.jpg"
-import imagem17 from "../Refeicoes/imagensRefe/carnecombatata.jpg"
-import imagem18 from "../Refeicoes/imagensRefe/frangoebatata.jpg"
-import imagem19 from "../Refeicoes/imagensRefe/salsichaebatata.jpg"
+import imagem17 from "../Refeicoes/imagensRefe/FRANGUINHO.jpg"
+import imagem18 from "../Refeicoes/imagensRefe/LINGUIÇA.jpg"
+import imagem19 from "../Refeicoes/imagensRefe/CORACAO.jpg"
 import imagem11 from "../Refeicoes/imagensRefe/bifegostoso.jpg"
 import imagem12 from "../Refeicoes/imagensRefe/peixinho.jpg"
-import imagem13 from "../Refeicoes/imagensRefe/tulipinha2.jpg"
+import imagem13 from "../Refeicoes/imagensRefe/tulipinha.jpg"
 import imagem14 from "../Refeicoes/imagensRefe/saladadeatum.jpg"
 import imagem15 from "../Refeicoes/imagensRefe/saladadebatata.jpg"
-
+import imagem20 from "../Refeicoes/imagensRefe/LASANHA.jpg"
+import imagem21 from "../Refeicoes/imagensRefe/inhoque.jpg"
+import imagem22 from "../Refeicoes/imagensRefe/stro.jpg"
 
 
 const Refeicoes = () => {
@@ -31,49 +33,49 @@ const Refeicoes = () => {
             id: '1',
             image: imagem1,
             type: ['tradicional'],
-            name: 'BOLO DE LIMÃO',
-            description: 'O tradicional café feito com água quente e grãos moídos',
+            name: 'ARROZ BRANCO',
+            description: '500gr',
             Price: "R$ 7.59",
         },
         {
             id: '2',
             image: imagem2,
             type: ['tradicional'],
-            name: 'BOLO DE MILHO',
-            description: 'Expresso diluído, menos intenso que o tradicional',
+            name: 'ARROZ INTEGRAL',
+            description: '500gr',
             price: 7.59,
         },
         {
             id: '3',
             image: imagem3,
             type: ['tradicional'],
-            name: 'BOLO DE FLOCOS',
-            description: 'Café expresso tradicional com espuma cremosa',
+            name: 'ARROZ AGREGA',
+            description: '500gr',
             price: 8.8,
         },
         {
             id: '4',
             image: imagem4,
             type: ['tradicional', 'gelado'],
-            name: 'BOLO DE CENOURA',
-            description: 'Bebida preparada com café expresso e cubos de gelo',
+            name: 'FEIJÃO',
+            description: '500gr',
             price: 9.9,
         },
         {
             id: '5',
             image: imagem5,
             type: ['tradicional', 'com leite'],
-            name: 'BOLO DE CHOCOLATE',
-            description: 'Meio a meio de expresso tradicional com leite vaporizado',
+            name: 'FEIJÃO TROPEIRO',
+            description: '500gr',
             price: 12.29,
         },
         {
             id: '6',
             image: imagem6,
             type: ['tradicional', 'com leite'],
-            name: 'NAKED CAKE DE MORANGO',
+            name: 'LENTILHA',
             description:
-                'SENSAÇÃO, NINHO, CHURROS E BEIJINHO',
+                '500gr',
             price: 12.29,
         },
         // {
@@ -89,99 +91,123 @@ const Refeicoes = () => {
             id: '8',
             image: imagem8,
             type: ['tradicional', 'com leite'],
-            name: 'BOLO DECORADO',
+            name: 'MACARRÃO AO MOLHO VERMELHO',
             description:
-                'SORVETE NATURAL DE MORANGO',
+                'MACARRÃO COM MOLHO DE TOMATE 500GR',
             price: 12.29,
         },
         {
             id: '9',
             image: imagem9,
             type: ['tradicional', 'com leite'],
-            name: 'BOLO DE CHURROS',
-            description: 'Café expresso com calda de chocolate, pouco leite e espuma',
+            name: 'MACARRÃO AO MOLHO BRANCO',
+            description: 'MACARRÃO AO MOLHO BRANCO 500GR',
             price: 12.29,
         },
         {
             id: '10',
             image: imagem10,
             type: ['especial', 'com leite'],
-            name: 'BOLO DE CHOCOLATE TRADICIONAL',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'MACARRÃO COM LEGUMES E CARNES',
+            description: 'MACARRÃO COM BROCOLIS, CENOURA E ISCAS DE CARNE 500GR.',
             price: 12.29,
         },
         {
             id: '11',
             image: imagem11,
             type: ['especial', 'com leite'],
-            name: 'ARROZ DOCE',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'BIFE DE CARNE',
+            description: 'BIFE FRITO NA MANTEIGA 1KL',
             price: 12.29,
         },
         {
             id: '12',
             image: imagem12,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'ISCAS DE PEIXE',
+            description: 'ISCAS DE PEIXE A MILANESA 1KL',
             price: 12.29,
         },
        {
             id: '13',
             image: imagem13,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'FRANGO ASSADO',
+            description: 'UNIDADE',
             price: 12.29,
         },
         {
             id: '14',
             image: imagem14,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'SALADA DE ATUM',
+            description: '500GR.',
             price: 12.29,
         },       {
             id: '15',
             image: imagem15,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'SALADA DE MAIONESE',
+            description: '500GR.',
             price: 12.29,
         },
         {
             id: '16',
             image: imagem16,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'SALADA DE TOMATE',
+            description: '500GR.',
             price: 12.29,
         },
         {
             id: '17',
             image: imagem17,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'ASINHA DE FRANGO ASSADA',
+            description: 'ASINHAS DE FRANGO ASSADAS NA BRASA 500GR.',
             price: 12.29,
         },
         {
             id: '18',
-            image: imagem18,
+            image: imagem19,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'CORAÇÃO DE FRANGO',
+            description: 'CORAÇÃO DE FRANGO ASSADO 500GR.',
             price: 12.29,
         },
         {
             id: '19',
-            image: imagem19,
+            image: imagem18,
             type: ['especial', 'com leite'],
-            name: 'PUDIM',
-            description: 'Bebida feita com chocolate dissolvido no leite quente e café',
+            name: 'LINGUIÇA',
+            description: 'LINGUIÇA ASSADA 1KL.',
             price: 12.29,
         },
-
+        {
+            id: '19',
+            image: imagem20,
+            type: ['especial', 'com leite'],
+            name: 'LASANHA',
+            description: 'LASANHA A BOLONHESA 1KL',
+            price: 12.29,
+        },
+        {
+            id: '19',
+            image: imagem22,
+            type: ['especial', 'com leite'],
+            name: 'STROGONOFF',
+            description: 'STROGONOF DE CARNE 500GR.',
+            price: 12.29,
+        },
+        {
+            id: '19',
+            image: imagem21,
+            type: ['especial', 'com leite'],
+            name: 'INHOQUE',
+            description: 'INHOQUE A BOLONHESA 500GR.',
+            price: 12.29,
+        },
+      
 
 
 
