@@ -20,8 +20,8 @@ import imagem19 from "../Refeicoes/imagensRefe/CORACAO.jpg"
 import imagem11 from "../Refeicoes/imagensRefe/bifegostoso.jpg"
 import imagem12 from "../Refeicoes/imagensRefe/peixinho.jpg"
 import imagem13 from "../Refeicoes/imagensRefe/tulipinha.jpg"
-import imagem14 from "../Refeicoes/imagensRefe/saladadeatum.jpg"
-import imagem15 from "../Refeicoes/imagensRefe/saladadebatata.jpg"
+import imagem14 from "../Refeicoes/imagensRefe/atum.webp"
+import imagem15 from "../Refeicoes/imagensRefe/mai.webp"
 import imagem20 from "../Refeicoes/imagensRefe/LASANHA.jpg"
 import imagem21 from "../Refeicoes/imagensRefe/inhoque.jpg"
 import imagem22 from "../Refeicoes/imagensRefe/stro.jpg"
@@ -34,8 +34,8 @@ const Refeicoes = () => {
             image: imagem1,
             type: ['tradicional'],
 
-            name: 'BOLO DE LIMÃO',
-            description: 'O tradicional café feito com água quente e grãos moídos',
+            name: 'ARROZ BRANCO',
+            description: '500gr',
             price: "R$ 7.59",
 
         },
@@ -165,7 +165,7 @@ const Refeicoes = () => {
             id: '17',
             image: imagem17,
             type: ['especial', 'com leite'],
-            name: 'ASINHA DE FRANGO ASSADA',
+            name: 'ASINHA DE FRANGO',
             description: 'ASINHAS DE FRANGO ASSADAS NA BRASA 500GR.',
             price: 12.29,
         },
@@ -173,7 +173,7 @@ const Refeicoes = () => {
             id: '18',
             image: imagem19,
             type: ['especial', 'com leite'],
-            name: 'CORAÇÃO DE FRANGO',
+            name: 'CORAÇÃOZINHO',
             description: 'CORAÇÃO DE FRANGO ASSADO 500GR.',
             price: 12.29,
         },

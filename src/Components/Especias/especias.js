@@ -5,9 +5,9 @@ import Card from "./CARDSESPECIAS/index"
 import "./especias.css"
 
 
-import imagem1 from "../Especias/ImagensEspecias/pizzatomate.jpg" 
-import imagem2 from "../Especias/ImagensEspecias/pizzaqueijo.jpg" 
-import imagem3 from "../Especias/ImagensEspecias/pizzapimentao.jpg" 
+import imagem1 from "../Especias/ImagensEspecias/CALABRESA.jpg" 
+import imagem2 from "../Especias/ImagensEspecias/PORTUGUESA.jpg" 
+import imagem3 from "../Especias/ImagensEspecias/VEGANA.jpg" 
 import imagem4 from "../Especias/ImagensEspecias/sushisalmao.jpg" 
 import imagem5 from "../Especias/ImagensEspecias/hotroll.jpg" 
 import imagem6 from "../Especias/ImagensEspecias/salmao.jpg" 
@@ -16,7 +16,7 @@ import imagem8 from "../Especias/ImagensEspecias/lula.jpg"
 import imagem9 from "../Especias/ImagensEspecias/peixe.jpg" 
 import imagem10 from "../Especias/ImagensEspecias/hamburguer.jpg" 
 import imagem11 from "../Especias/ImagensEspecias/hamburguer2.jpg" 
-import imagem12 from "../Especias/ImagensEspecias/hambuerguer3.jpg" 
+import imagem12 from "../Especias/ImagensEspecias/BACON.jpeg" 
 import imagem13 from "../Especias/ImagensEspecias/mandiocafrita.jpg"
 import imagem14 from "../Especias/ImagensEspecias/batatafrita.jpg"
 import imagem15 from  "../Especias/ImagensEspecias/polentafrita.jpg"
@@ -28,8 +28,8 @@ const Especias = () => {
             image: imagem1,
             type: ['tradicional'],
 
-            name: 'BOLO DE LIMÃO',
-            description: 'O tradicional café feito com água quente e grãos moídos',
+            name: 'PIZZA CALABRESA',
+            description: 'Tradicional pizza calabresa.',
             price: "R$ 7.59",
 
         },
@@ -37,16 +37,16 @@ const Especias = () => {
             id: '2',
             image: imagem2,
             type: ['tradicional'],
-            name: 'PIZZA DE 4 QUEIJOS',
-            description: 'MOLHO DE TOMATE, CHEDDAR, GORGONZOLA, MUSSARELA, CATUPIRY E ORÉGANO.',
+            name: 'PIZZA PORTUGUESA',
+            description: 'Tradicional pizza portuguesa.',
             price: 7.59,
         },
         {
             id: '3',
             image: imagem3,
             type: ['tradicional'],
-            name: 'PIZZA DE CALABRESA',
-            description: 'MOLHO DE TOMATE, CALABRESA, QUEIJO MUSSARELA.',
+            name: 'PIZZA VEGANA',
+            description: 'Tradiiconal pizza vegana.',
             price: 8.8,
         },
         {
@@ -62,7 +62,7 @@ const Especias = () => {
             image: imagem5,
             type: ['tradicional', 'com leite'],
             name: 'HOT ROLL',
-            description: 'ARROZ, SALMÃO COZIDO, CREATISE, CEBOLINH E MOLHO TARÊ.',
+            description: 'Arroz, Salmão, Creatise, Cebolinha e Molho Tarê.',
             price: 12.29,
         },
         {
@@ -104,7 +104,7 @@ const Especias = () => {
             id: '10',
             image: imagem10,
             type: ['especial', 'com leite'],
-            name: 'HAMBUERGUER 2 CARNES',
+            name: 'X-DUPLO',
             description: ' 2 Hambúrguer com queijo cheddar, catchup, mostarda, cebola, picles, alaface e tomate fresco.',
             price: 12.29,
         },
@@ -112,16 +112,16 @@ const Especias = () => {
             id: '11',
             image: imagem11,
             type: ['especial', 'com leite'],
-            name: 'HAMBUERGUER DE CHEDDAR',
-            description: ' Hambúrguer com 2 camadas de queijo cheddar, catchup, mostarda, cebola fresca, cebolinha frita, picles, alaface americano.',
+            name: 'X-CHEDDAR',
+            description: ' Contém 2 camadas de queijo cheddar, catchup, mostarda, cebola, cebolinha, picles, alaface.',
             price: 12.29,
         },
         {
             id: '12',
             image: imagem12,
             type: ['especial', 'com leite'],
-            name: 'HAMBUERGUER QFOME KIDS',
-            description: ' Hambúrguer com queijo cheddar, catchup, alaface e tomate fresco.',
+            name: 'X-BACON',
+            description: ' Hambúrguer com queijo cheddar, catchup e bacon. Acompanhado com batata frita',
             price: 12.29,
         },
         {

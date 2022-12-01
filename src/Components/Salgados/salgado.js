@@ -7,15 +7,15 @@ import "./salgado.css"
 
 
 // import imagem1 from "./imagens/mousse-de-maracuja.jpg"
-import imagem1 from "./imagensSalgados/minipizza.jpg"
-import imagem2 from "./imagensSalgados/minicachorroquente.jpg"
-import imagem3 from "./imagensSalgados/minihambuerguer.jpg"
-import imagem4 from "./imagensSalgados/risolios.jpg"
-import imagem5 from "./imagensSalgados/coxinha.jpg"
-import imagem6 from "./imagensSalgados/bolinhaqueijo.jpg"
-import imagem7 from "./imagensSalgados/pastelforno.jpg"
-import imagem8 from "./imagensSalgados/salsichadeforno.jpg"
-import imagem9 from "./imagensSalgados/empada.jpg"
+import imagem1 from "./imagensSalgados/pizza1.jpg"
+import imagem2 from "./imagensSalgados/quente.webp"
+import imagem3 from "./imagensSalgados/hamb.jpg"
+import imagem4 from "./imagensSalgados/risoles.jpg"
+import imagem5 from "./imagensSalgados/coxinha1.webp"
+import imagem6 from "./imagensSalgados/5.webp"
+import imagem7 from "./imagensSalgados/esfirra.jpg"
+import imagem8 from "./imagensSalgados/folhado.jpg"
+import imagem9 from "./imagensSalgados/queijo.jpg"
 // import imagem10 from "./imagens/chocolotae.jpg"
 // import imagem11 from "./imagens/calda.jpg" 
 // import imagem12 from "./imagens/calda.jpg" 
@@ -34,7 +34,7 @@ const Salgado =() => {
             id: '5',
             image: imagem4,
             type: ['tradicional', 'com leite'],
-            name: 'RISOLIOS DE CARNE',
+            name: 'RISOLES RECHEADO',
             description: 'UNIDADE',
             price: 1.49,
         },
@@ -53,7 +53,7 @@ const Salgado =() => {
             type: ['tradicional'],
             name: 'MINI PIZZA',
             description: 'UNIDADE',
-            Price:  4.49,
+            price:  4.49,
         },
         {
             id: '2',
@@ -76,7 +76,7 @@ const Salgado =() => {
             id: '7',
             image: imagem7,
             type: ['tradicional', 'com leite'],
-            name: 'PASTEL DE FORNO',
+            name: 'ESFIRRA',
             description:
                 'UNIDADE',
             price: 3.99,
@@ -85,7 +85,7 @@ const Salgado =() => {
             id: '8',
             image: imagem8,
             type: ['tradicional', 'com leite'],
-            name: 'DOGZINHO',
+            name: 'ASSADO DE CARNE',
             description:
                 'UNIDADE',
             price: 2.99,
@@ -94,7 +94,7 @@ const Salgado =() => {
             id: '9',
             image: imagem9,
             type: ['tradicional', 'com leite'],
-            name: 'EMPADINHA DE FRANGO',
+            name: 'PÃO DE QUEIJO',
             description: 'UNIDADE',
             price: 12.29,
         },
