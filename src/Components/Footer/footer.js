@@ -16,11 +16,11 @@ const Footer = () => {
                 </div>
                 <div className="col-container">
                       <div className="col">
-                        <h3>Qfome</h3>
+                        <h3 className='qfome'>Qfome</h3>
                         <p className='paginaquemSomos' onClick={() => window.location.href = `./QuemSomos`}>Quem Somos</p>
                     </div>
                     <div className="col">
-                        <h3>Novidades</h3>
+                        <h3 className='nov'>Novidades</h3>
                         {/* <p>Bolos</p>
                         <p>Doces</p>
                         <p>Salgados</p>
@@ -31,14 +31,14 @@ const Footer = () => {
                     </div>
                   
                     <div className="col">
-                        <h3>Equipe</h3>
+                        <h3 className='equi'>Equipe</h3>
                         <p>Daiana</p>
                         <p>Kamilly</p>
                         <p>Marcyelen</p>
                     </div>
                     <form>
                         <div className='redes'>
-                        <h3>Redes sociais</h3>
+                        <h3 className='red'>Redes sociais</h3>
                         
                         <div className="social-group">
                             <div className='icon-texto'>
