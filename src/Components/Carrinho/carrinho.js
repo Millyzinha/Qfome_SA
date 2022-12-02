@@ -1,56 +1,84 @@
 import React, { useState } from "react"
-import { Link } from "react-router-dom"
+import { ImLocation2 } from 'react-icons/im'
+import { BiDollar } from 'react-icons/bi'
+import { BsFillCartXFill } from 'react-icons/bs'
 import Logo from "../Header/logo.png"
 import "./carrinho.css"
+import Header from "../Header/header"
+
 
 
 const Carrinho = () => {
 
-return (
-    <>
-         <div className="navbar3">
-          <div className="logo3">
-          <img src={Logo} alt="LogoCircular" className='h-logo3'/>
-     </div>
-     </div>
+    return (
+        <>
+        <Header/>
+            {/* <div className="navbar3">
+                <div className="logo3">
+                    <img src={Logo} alt="LogoCircular" className='h-logo3' />
+                </div>
+            </div> */}
             <div className="carrinho-main">
                 <div className="pedido">
-                    <h2>Finalize seu pedido</h2>
+                    {/* <h2 className="titulo-cart">Finalize seu pedido!</h2> */}
                     <div className="info">
+                    <p className="titulo-cart">Finalize seu pedido!</p>
+                        <ImLocation2 className="icon-cart" />
                         <p className="tex-info">Informe o endereço para a entrega</p>
-                        <div>
-                        <div className="input-cep">
-                            <input type="text" placeholder="CEP" name="cep"/>
-                        </div>
-                        <div className="input-rua">
-                            <input type="text" placeholder="RUA" name="rua"/>
-                        </div>
-                        <div className="input-NC">
-                        <div className="input-numero">
-                            <input type="text" placeholder="NÚMERO" name="numero"/>
-                        </div>
-                        <div className="input-complemento">
-                            <input type="text" placeholder="COMPLEMENTO" name="complemento"/>
-                        </div>
-                        </div>
-                        <div className="input-BCU">
-                        <div className="input-bairro">
-                            <input type="text" placeholder="BAIRRO" name="bairro"/>
-                        </div>
-                        <div className="input-cidade">
-                            <input type="text" placeholder="CIDADE" name="cidade"/>
-                        </div>
-                        <div className="input-uf">
-                            <input type="text" placeholder="UF" name="uf"/>
-                        </div>
+                        <div className="class-cart">
+                            <div className="input-todos">
+                                <input type="text" placeholder="CEP" />
+                            </div>
+                            <div className="input-todos">
+                                <input type="text" placeholder="Rua" />
+                            </div>
+                            <div className="input-todos">
+                                <input type="text" placeholder="Número" />
+                            </div>
+
+                            <div className="input-todos">
+                                <input type="text" placeholder="Bairro" />
+                            </div>
+
                         </div>
                     </div>
+
+                </div>
+
+                <div className="div-pag">
+                    <div className="pagamento-div">
+                        <BiDollar className="icon-dollar"/>
+                        <p className="final-pag">Informe sua forma de pagamento</p>
+                        <p>O pagamento é feito na entrega</p>
+                        <div className="ooo">
+                        <button className="bot-pag">CARTÃO DE CRÉDITO</button>
+                        <button className="bot-pag">DINHEIRO</button>
+                        <button className="bot-pag">CARTÃO DE DÉBITO</button>
+                        </div>
                     </div>
-                   
+                </div>
+
+                <div className="div-vazio">
+                    
+                    <div className="sc-gicCDI....">
+                        <div className="aaa">
+                            <p className="selecionados">Seus itens selecionados</p>
+                            <p>Ops seu carrinho está vazio</p>
+                            <p>Navegue pelo menu e veja nossos produtos</p>
+                            <BsFillCartXFill className="cart-vazio"/>
+                        
+                        </div>
+                        
+                    </div>
+                    
                 </div>
             </div>
-     </>
- )
+        
+        </>
+        
+                
+          
+    )
 }
 
 export default Carrinho;
