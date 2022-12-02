@@ -54,7 +54,7 @@ svg  {
 .footer p {
     margin: .5rem 0;
     color: rgb(255, 255, 255);
-    padding-left: 100px;
+    padding-left: 10px;
 }
 .redessociais {
         color: #fff;
@@ -72,14 +72,15 @@ svg  {
 }
 
 .qfome{
-    padding-left: 130px;
+    padding-left: 83px;
     text-transform: uppercase;
     color: #ED7E07;
 }
 
 .nov {
 
-    padding-left: 120px;
+    padding-left: 190px;
+    padding-right: 150px;
     text-transform: uppercase;
     color: #ED7E07;
 
@@ -87,14 +88,14 @@ svg  {
 
 .equi{
 
-    padding-left: 130px;
+    padding-left: 80px;
     text-transform: uppercase;
     color: #ED7E07;
 
 }
 
 .red {
-    padding-left: 50px;
+    padding-left: 20px;
     text-transform: uppercase;
     color: #ED7E07;
 }
