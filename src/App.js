@@ -42,7 +42,7 @@ const App = () => {
          <Route element={<Admin />} path={"/admin"} />
          <Route element={<Cadastro />} path={"/cadastro"} />
          <Route element={<Login />} path={"/login"} />
-         <Route element={<Perfil/>} path={'/perfil/:id'}/>
+         <Route element={<Perfil/>} path={'/perfil'}/>
          {/* <Route element={<HomeDeslogado />} path={"/homeDeslogado"} /> */}
          <Route element={<EditarP />} path={"/editarperfil"} />
          <Route element={<Novidades />} path={"/novidades"} />

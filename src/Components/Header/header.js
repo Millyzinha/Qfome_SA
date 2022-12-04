@@ -68,7 +68,7 @@ function Header() {
                 <img src={Logo} alt="LogoCircular" className='h-logo' />
             </div>
             <div className='direita'>
-                < FaUserAlt className='user' onClick={() => window.location.href = `/perfil/2`} />
+                < FaUserAlt className='user' onClick={() => window.location.href = `/perfil`} />
                 < IoMdCart className='carrinho' onClick={() => window.location.href = `/carrinho/1`} />
 
             </div>

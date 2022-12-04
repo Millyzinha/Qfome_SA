@@ -1,43 +1,43 @@
 import React from 'react'
 import "./perfil.css"
 import Header from '../Header/header'
+import Fome from "./fome.jpg"
+// import Card from "bootstrap"
 
 const Perfil = () => {
     return (
         <div>
             <Header />
 
+            <div className='body1'>
+
             <div className="Perfil">
-                <div className="body">
-                    <div className="black-box">
-                        <div className="seu-perfil" >
-                            {/* <img src={registration} alt="GcadastroImg.jpg" className="imgCadastro" /> */}
-                        </div>
-                        <div className="box-input">
-                            <div className="perfil">
-                                <h1 className="input-Cconta">Perfil</h1>
-                                <div className="input-perfil">
-                                    <input type="text"
-                                        placeholder="Nome de Usuário"
-                                    />
-                                </div>
-                                <div className="input-email">
-                                    <input type="text" placeholder="E-mail" />
-                                </div>
-                                <div className="input-senha">
-                                    <input type="text" placeholder="Senha" />
-                                </div>
-                                <br></br>
-                                <div>
-                                   <button OnClick="" className="botao-editarPerfil"> Editar Perfil </button> 
-                                   
-                                   <a href="editarperfil.js"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+            <div className='logo1'>
+                <img src={Fome} alt="fominha" className='h-logo1' />
             </div>
+            <div className="flex2">
+
+            <div className='nome'>
+                <h2>
+Marcynha</h2>
+            
+
+            </div>
+
+            <div className='id'>
+            <p className='id1'>@marcynhaasars</p>
+
+            <div className='edp'>
+                <button className='button1' onClick={() => window.location.href = `/editarperfil`}>Editar perfil</button>
+            </div>
+            </div>
+            </div>
+  
+            </div>
+            </div>
+
+
         </div>
 
     )
