@@ -16,7 +16,7 @@ function Card({ imageSource, title, preco, url }) {
         <a
           href={url ? url : "#!"}
           target="_self"
-          className="button"
+          className="button100"
           rel="noreferrer"
         >
           visitar

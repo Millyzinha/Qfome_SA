@@ -55,7 +55,7 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,131,0,1) 100%, rgba(0,212,255,1) 100%); */
   
 }
-.button {
+.button100 {
   display: inline-block;
   padding: 5px 45px;
   font-size: 18px;
@@ -71,17 +71,17 @@
   margin-bottom: 12px;
 }
 
-.button:hover {
+.button100:hover {
   background-color: #ffffff
 
 }
 
-.button:active {
+.button100:active {
   background-color: #ED7E07;
   box-shadow: 0 5px rgba(243, 111, 4, 0.678);
   transform: translateY(4px);
 }
 
-a.buttton {
+a.buttton100 {
     color: #ED7E07;
   }
