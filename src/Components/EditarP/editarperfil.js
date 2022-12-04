@@ -7,7 +7,7 @@ const Perfil = () => {
         <div>
             <Header />
 
-            <div className="body">
+            <div className="body2">
 
             <div className="Perfil1">
 
