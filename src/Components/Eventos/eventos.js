@@ -102,7 +102,7 @@ const Eventos = () => {
             type: ['tradicional', 'com leite'],
             name: 'ANO NOVO',
             description:
-                '1oKG de picanha, salada, 2KG camarão',
+                '10KG de picanha, salada, 2KG camarão',
             price: 330.10,
         },
         
