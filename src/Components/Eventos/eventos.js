@@ -67,7 +67,7 @@ const Eventos = () => {
             id: '3',
             image: imagem3,
             type: ['tradicional'],
-            name: 'FORATURA',
+            name: 'FORMATURA',
             description: 'um cento de Cupcake personalizado com um bolo de 2KG de prestigio',
             price: 200.00,
         },
