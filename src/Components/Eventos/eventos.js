@@ -59,8 +59,8 @@ const Eventos = () => {
             image: imagem1,
             type: ['tradicional'],
             name: 'FESTA DE 15 ANOS',
-            description: 'Bolo de 5KG de morango de dois andares com acompanhamento de 300 docinhos (beijinho e brigadeiro), com 500 salgados',
-            Price: 650.00,
+            description: 'Bolo de 5KG de morango de dois andares com acompanhamento de 300 docinhos, com 500 salgados',
+            price: 650.00,
         },
        
         {
