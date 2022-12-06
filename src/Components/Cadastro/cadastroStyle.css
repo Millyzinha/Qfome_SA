@@ -32,7 +32,7 @@
 
 .card-cadastro{
     width: 25%;
-    margin-top: 15%;
+    margin-top: 13%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,7 @@
 
 .card-cadastro > h1{
   color:#ED7E07;
+  height: 12%;
   font-weight: 00;
   margin: 0;
 }

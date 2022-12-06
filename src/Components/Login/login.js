@@ -49,12 +49,12 @@ const Login = () => {
     </div>
      <div className="main-login">
         <div className="left-login">
-            <h1>Estavamos esperando por você, faça seu login</h1>
+            <h1>Estavamos esperando por você, faça já seu login</h1>
             <img src={Logar} alt="loginImg.jpg" className="entregador"/>
         </div>
         <div className="right-login"></div>
             <div className="card-login">
-                <h1>Logar usuário</h1>
+                <h1>LOGAR USUÁRIO</h1>
                <div className="textlogin">
                     <label for="usuarioL">Nome de usuário</label>
                     <input type="text"></input>
