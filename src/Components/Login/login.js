@@ -62,7 +62,7 @@ const Login = () => {
                <div className="textlogin">
                     <label for="senhaL">Senha</label>
                     <input type="password"></input>
-                    <button className="bot-login">Logar</button>
+                    <button className="bot-login" onClick={() => window.location.href = '/home'}>Logar</button>
                </div>
                <p>Não possui uma conta?<Link to='/Cadastro'>Cadastre-se</Link></p>
 

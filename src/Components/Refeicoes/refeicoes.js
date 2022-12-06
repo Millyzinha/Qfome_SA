@@ -111,7 +111,7 @@ const Refeicoes = () => {
             image: imagem10,
             type: ['especial', 'com leite'],
             name: 'MACARRÃO COM LEGUMES E CARNES',
-            description: 'MACARRÃO COM BROCOLIS, CENOURA E ISCAS DE CARNE 500GR.',
+            description: 'MACARRÃO COM BROCOLIS E ISCAS DE CARNE 500GR.',
             price: 12.29,
         },
         {
