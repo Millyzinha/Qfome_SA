@@ -56,14 +56,9 @@ const HOMEDeslogado = () => {
           Logar
         </a> */}
 
-        <a
-          href={  "/cadastro"}
-          target="_blank"
-          className="button"
-          rel="noreferrer"
-        >
-          COMEÇAR
-        </a>
+<button className='button3008' onClick={() => window.location.href = `/cadastro`}>Começar</button>
+   
+ 
         </div>
         </div>
         <div className='hamb'>
