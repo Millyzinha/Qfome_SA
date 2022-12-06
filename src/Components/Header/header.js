@@ -69,7 +69,7 @@ function Header() {
             </div>
             <div className='direita'>
                 < FaUserAlt className='user' onClick={() => window.location.href = `/perfil`} />
-                < IoMdCart className='carrinho' onClick={() => window.location.href = `/carrinho/1`} />
+                < IoMdCart className='carrinho' onClick={() => window.location.href = '/carrinho'} />
 
             </div>
         </div>

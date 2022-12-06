@@ -31,78 +31,79 @@ const Eventos = () => {
             id: '8',
             image: imagem8,
             type: ['tradicional', 'com leite'],
-            name: 'SORVETE DE MORANGO',
+            name: 'FESTA JUNINA',
             description:
-                'SORVETE NATURAL DE MORANGO',
-            price: 12.29,
+                '10 maças do amor, bolo pequeno de milho, kit 15 paçoquinhas, 10 pacotes de amendoim doce',
+                
+            price: 149.90,
         },
         {
             id: '9',
             image: imagem9,
             type: ['tradicional', 'com leite'],
-            name: 'TORTA DE MORANGO',
-            description: 'Café expresso com calda de chocolate, pouco leite e espuma',
-            price: 12.29,
+            name: 'CHURRASCO',
+            description: '15KG de picanha para 30 pessoas com acompanhamento de um pote médio de maionese euma farofa caseira',
+            price: 320.00,
 
         },
         {
             id: '2',
             image: imagem2,
             type: ['tradicional'],
-            name: 'MOUSSE DE LIMÃO',
-            description: 'Expresso diluído, menos intenso que o tradicional',
-            price: 7.59,
+            name: 'FESTA INFANTIL',
+            description: 'Bolo de 5KG tradicional de chocolate, duzentos salgados e um cento de brigadeiro e beijinho ',
+            price: 390.90,
         },
         {
             id: '1',
             image: imagem1,
             type: ['tradicional'],
-            name: 'MOUSSE DE MARACUJÁ',
-            description: 'O tradicional café feito com água quente e grãos moídos',
-            Price: "R$ 7.59",
+            name: 'FESTA DE 15 ANOS',
+            description: 'Bolo de 5KG de morango de dois andares com acompanhamento de 300 docinhos (beijinho e brigadeiro), com 500 salgados',
+            Price: 650.00,
         },
        
         {
             id: '3',
             image: imagem3,
             type: ['tradicional'],
-            name: 'MOUSSE DE CHOCOLATE',
-            description: 'Café expresso tradicional com espuma cremosa',
-            price: 8.8,
+            name: 'FORATURA',
+            description: 'um cento de Cupcake personalizado com um bolo de 2KG de prestigio',
+            price: 200.00,
         },
         {
             id: '4',
             image: imagem4,
             type: ['tradicional', 'gelado'],
-            name: 'BRIGADEIRO E BEIJINHO',
-            description: 'Bebida preparada com café expresso e cubos de gelo',
-            price: 9.9,
+            name: 'CASAMENTO',
+            description: 'Bolo de 6KG de dois amores, com 800 salgados e 500 docinhos(amendoim e limão)',
+            price: 1800.00,
         },
         {
             id: '5',
             image: imagem5,
             type: ['tradicional', 'com leite'],
-            name: 'BRIGADEIRO DE LEITE NINHO',
-            description: 'Meio a meio de expresso tradicional com leite vaporizado',
-            price: 12.29,
+            name: 'CAFÉ DA TARDE',
+            description: 'Bolo pequeno de brigadeiro, pão caseiro, cuca',
+            price: 60.12,
         },
         {
             id: '6',
             image: imagem6,
             type: ['tradicional', 'com leite'],
-            name: 'BRIGADEIROS',
-            description:
-                'SENSAÇÃO, NINHO, CHURROS E BEIJINHO',
-            price: 12.29,
+            name: 'NATAL',
+            description: 
+                'Chester grande, com 500 gramas de arroz, salada e maionese',
+            price: 330.14,
         },
         {
             id: '7',
             image: imagem7,
             type: ['tradicional', 'com leite'],
-            name: 'MORANGO COM CHOCOLATE',
+            name: 'ANO NOVO',
             description:
-                'Bebida com canela feita de doses iguais de café, leite e espuma',
-            price: 12.29,
+                '1oKG de picanha, salada, 2KG camarão',
+            price: 330.10,
         },
         
         // {
@@ -123,13 +124,7 @@ const Eventos = () => {
         // },
         // {
         //     id: '12',
-        //     image: imagem12,
-        //     type: ['especial', 'com leite'],
-        //     name: 'PUDIM',
-        //     description: 'Bebida feita com chocolate dissolvido no leite quente e café',
-        //     price: 12.29,
-        // },
-
+        //     image: imagem12,
 
     ]
     return (
